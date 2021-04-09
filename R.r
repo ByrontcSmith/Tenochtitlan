@@ -1,5 +1,8 @@
 library(tidyverse)
+library(ggplot2)
 
 data(volcano)
 
-head(volcano, 6)
+summary(volcano)
+
+plot(volcano)
